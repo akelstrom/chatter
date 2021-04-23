@@ -17,6 +17,7 @@ const io = socketio(server);
 //set static folder
 app.use(express.static(path.join(__dirname, "public")));
 
+//this is the robot or the app that will be sending join/leave/welcome messages
 const bot = "ChatterBot";
 
 //run when client connects to socket
