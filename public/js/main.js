@@ -41,7 +41,7 @@ e.target.elements.msg.focus();
 const outputMessage = (message) => {
     const div = document.createElement('div');
     div.classList.add('message');
-    div.innerHTML = `<p class="meta">${message.username}<span>${message.time}</span></p>
+    div.innerHTML = `<p class="meta">${message.username} <span> ${message.time}</span></p>
     <p class="text">
    ${message.text}
     </p>`;
