@@ -7,10 +7,10 @@ This is a really simple real time chat app called ChatterBox. Users are welcome 
 I wanted to get my hands dirty with socket.io. My goal was to get practice, and a good understanding of socket.io so that I can implement this technology in a real-time multiplayer game for a future personal project. 
 
 ## Application
-Check out the live application [here]()
+Check out the live application [here](https://tranquil-temple-51438.herokuapp.com/index.html)
 
 ## Usage
-
+![chatterbox gif](chatterbox.gif)
 
 ## Built With
 * JavaScript
